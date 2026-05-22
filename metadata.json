@@ -1,0 +1,6 @@
+{
+  "name": "Weather Website",
+  "description": "A beautiful, fully functional weather website with 5-day forecasts, location auto-detection, and weather-themed glassmorphism elements.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
