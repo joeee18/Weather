@@ -7,6 +7,9 @@ export default defineConfig(() => {
   return {
     plugins: [react(), tailwindcss()],
     base: '/Weather/',
+    build: {
+      outDir: 'docs',
+    },
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
